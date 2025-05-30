@@ -5,4 +5,5 @@
     <color name="primary">#1DB954</color>
     <color name="secondary">#191414</color>
     <color name="accent">#FFFFFF</color>
+    <color name="launcher_background">@color/primary</color>
 </resources>
