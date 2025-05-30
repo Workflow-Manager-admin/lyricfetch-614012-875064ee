@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">lyricfetch</string>
+    <string name="app_name">LyricFetch</string>
+    <string name="search_hint">Enter song name</string>
+    <string name="search_button">Search</string>
+    <string name="error_not_found">Lyrics not found</string>
+    <string name="error_network">Network error occurred</string>
+    <string name="loading">Searching for lyrics...</string>
 </resources>
