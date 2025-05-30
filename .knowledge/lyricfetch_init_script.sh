@@ -1,1 +1,0 @@
-{"is_source_file": true, "file_id": 10, "git_revision": "", "state": 3, "description": "", "external_files": [], "external_methods": [], "published": [], "classes": [], "methods": [], "calls": [], "search-terms": [], "hash": null, "format-version": 4, "code-base-name": "default", "filename": "lyricfetch/init_script.sh", "knowledge_revision": 22}
