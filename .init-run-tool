@@ -1,0 +1,4 @@
+{
+    "command": "./gradlew installDebug",
+    "working_directory": "/tmp/kavia/workspace/code-generation/lyricfetch-614012-875064ee/lyricfetch"
+}

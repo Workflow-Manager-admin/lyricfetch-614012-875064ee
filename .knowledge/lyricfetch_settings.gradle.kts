@@ -1,0 +1,1 @@
+{"is_source_file": true, "file_id": 12, "git_revision": "", "state": 1, "description": "", "external_files": [], "external_methods": [], "published": [], "classes": [], "methods": [], "calls": [], "search-terms": [], "hash": "38addd103f473b423064cf589afe678f", "format-version": 4, "code-base-name": "default", "filename": "lyricfetch/settings.gradle.kts", "knowledge_revision": 14}
