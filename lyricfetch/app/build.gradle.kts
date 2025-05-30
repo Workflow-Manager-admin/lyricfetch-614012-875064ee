@@ -15,12 +15,6 @@ android {
         versionName = "1.0"
     }
 
-    buildFeatures {
-        vectorDrawables {
-            useSupportLibrary = true
-        }
-    }
-
     buildTypes {
         release {
             isMinifyEnabled = false
@@ -52,4 +46,5 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
     implementation("androidx.lifecycle:lifecycle-viewmodel:2.7.0")
+    implementation("androidx.vectordrawable:vectordrawable:1.1.0")
 }
