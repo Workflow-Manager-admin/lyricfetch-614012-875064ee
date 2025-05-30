@@ -15,6 +15,7 @@ import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
+import androidx.lifecycle.ViewModelProvider.Factory
 
 class MainActivity : AppCompatActivity() {
     private lateinit var viewModel: LyricsViewModel
@@ -77,8 +78,8 @@ class MainActivity : AppCompatActivity() {
     }
 }
 
-class LyricsViewModelFactory(private val repository: LyricsRepository) : ViewModelProvider.Factory {
-    override fun <T : ViewModel> create(modelClass: Class<T>): T {
+class LyricsViewModelFactory(private val repository: LyricsRepository) : Factory {
+    override fun <T : androidx.lifecycle.ViewModel> create(modelClass: Class<T>): T {
         if (modelClass.isAssignableFrom(LyricsViewModel::class.java)) {
             @Suppress("UNCHECKED_CAST")
             return LyricsViewModel(repository) as T
